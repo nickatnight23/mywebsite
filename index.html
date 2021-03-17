@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1,minium-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -76,8 +76,28 @@
                 <hr>
 
                 <h4>TOP EXPERTISE</h4>
+                <p>Full Stack developer focused on React and JavaScript:<a href="">Download Resume</a></p>
+
+                <div id="skills">
+                    <ul>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>Redux</li>
+                        <li>Ruby on Rails</li>
+                    </ul>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
+                        <li>Sinatra</li>
+                    </ul>
+
+
+                </div>
 
                 <div class="social-links">
+                    <h3>Find me on Twitter</h3>
+                    <a target ="_blank" href="#">Twitter: @tnickatnite23</a>
 
                 </div>
 
@@ -86,12 +106,61 @@
     </section>
     <section class="s1">
         <div class= "main-container">
-            Portfolio
+            <h3 style="text-align: center;">Some of my past projects</h3>
+
+            <div class ="post-wrapper"></div>
+            <div>
+            <div class ="post">
+                <img class="thumbnail" src ="images/tricia.JPG"
+                <div class ="post-preview">
+                    <h6 class ="post-title">Post Title</h6>
+                    <p class="post-into">This is a sentence. Some more text</p>
+
+                </div>
+            </div>
         </div>
+            <div class ="post">
+                <img class="thumbnail" src ="images/tricia.JPG"
+                <div class ="post-preview">
+                    <h6 class ="post-title">Post Title</h6>
+                    <p class="post-into">This is a sentence. Some more text</p>
+
+                </div>
+            </div>
+        </div>
+            <div>
+            <div></div>
+            <div class ="post">
+                <img class="thumbnail" src ="images/tricia.JPG"
+                <div class ="post-preview">
+                    <h6 class ="post-title">Post Title</h6>
+                    <p class="post-into">This is a sentence. Some more text</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
     <section class="s2">
         <div class ="main-container">
-            Contact
+            <h3 style="text-align: center;">Get in touch</h3>
+            <form id = "contact-form">
+                <label>Name</label>
+                <input class="input-field" type="text" name="name">
+
+                <label>Subject</label>
+                <input class="input-field" type="text" name="subject">
+
+                <label>Email</label>
+                <input class="input-field" type="text" name="email">
+
+                <label>Message</label>
+                <textarea class="input-field" name="message"></textarea>
+                
+
+            <input id ="submit-btn" type ="submit" value ="send">
+            </form>
+
         </div>
     </section>
 </body>
